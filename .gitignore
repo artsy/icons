@@ -1,0 +1,4 @@
+.DS_Store
+build/src
+build/svg
+node_modules
