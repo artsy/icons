@@ -32,9 +32,9 @@ const getReactSource = ({ componentName, svgSource }) => {
 
   return `
 import * as React from "react";
-import { Box } from "@artsy/palette";
+import { Box, BoxProps } from "./Box";
 
-const ${componentName} = (props) => {
+const ${componentName} = (props: BoxProps) => {
   const svgStyle: React.CSSProperties = {...${JSON.stringify(SVG_STYLE)}};
   return (
     <Box position="relative" width={${width}} height={${height}} {...props}>${svgAsJsx}</Box>
@@ -52,7 +52,8 @@ const getPackageJsonSource = ({ version }) => `{
   "version": "${version}",
   "peerDependencies": {
     "react": ">=16.2.0",
-    "@artsy/palette": ">=24.0.0"
+    "styled-components": "^4",
+    "styled-system": "^5"
   },
   "main": "index.js",
   "types": "index.d.ts",
@@ -61,6 +62,13 @@ const getPackageJsonSource = ({ version }) => `{
     "registry": "https://registry.npmjs.org"
   }
 }`;
+
+const getBoxSource = () => `
+import styled from "styled-components";
+import { FlexboxProps, LayoutProps, PositionProps, SpaceProps, ColorProps, flexbox, layout, position, space, color } from "styled-system";
+export interface BoxProps extends FlexboxProps, LayoutProps, PositionProps, SpaceProps, Omit<ColorProps, "color"> {};
+export const Box = styled.div<BoxProps>(flexbox, layout, position, space, color);
+`;
 
 const getIndexSource = ({ iconFiles }) => `
 console.warn("For internal use only. Import from the individual files rather than from the index.");
@@ -89,6 +97,7 @@ const write = ({ svgs, version }) => {
   return [
     { filepath: "package.json", source: getPackageJsonSource({ version }) },
     { filepath: "index.ts", source: getIndexSource({ iconFiles }) },
+    { filepath: "Box.tsx", source: getBoxSource() },
     ...iconFiles,
   ];
 };

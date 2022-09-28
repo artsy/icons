@@ -1,4 +1,5 @@
 .DS_Store
 build/src
 build/svg
+dist
 node_modules
