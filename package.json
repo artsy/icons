@@ -7,8 +7,7 @@
     "clean": "rm -rf build/svg && rm -rf build/src",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
     "optimize": "svgo src -o build/svg --config=svgo.config.js",
-    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
-    "release": "yarn build && auto shipit"
+    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile"
   },
   "devDependencies": {
     "@artsy/auto-config": "^1.2.0",

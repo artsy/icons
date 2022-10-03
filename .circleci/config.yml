@@ -7,6 +7,9 @@ orbs:
 workflows:
   build_and_verify:
     jobs:
+      - yarn/run:
+          name: build
+          script: "build"
       - yarn/workflow-queue
       - yarn/update-cache:
           requires:
@@ -18,6 +21,7 @@ workflows:
               ignore: main
           requires:
             - yarn/update-cache
+            - build
       - auto/publish:
           context: npm-deploy
           filters:
@@ -25,3 +29,4 @@ workflows:
               only: main
           requires:
             - yarn/update-cache
+            - build
