@@ -8,7 +8,7 @@
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
     "optimize": "svgo src -o build/svg --config=svgo.config.js",
     "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
-    "release": "auto shipit"
+    "release": "yarn build && auto shipit"
   },
   "devDependencies": {
     "@artsy/auto-config": "^1.2.0",
