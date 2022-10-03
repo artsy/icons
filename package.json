@@ -7,13 +7,16 @@
     "clean": "rm -rf build/svg && rm -rf build/src",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
     "optimize": "svgo src -o build/svg --config=svgo.config.js",
-    "build": "yarn clean && yarn optimize && node scripts/build.js"
+    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
+    "release": "auto shipit"
   },
   "devDependencies": {
+    "@artsy/auto-config": "^1.2.0",
     "@svgr/core": "^6.3.1",
     "@types/react": "^18.0.21",
     "@types/styled-components": "^5.1.26",
     "@types/styled-system": "^5.1.15",
+    "auto": "^10.37.6",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "lodash": "^4.17.21",
