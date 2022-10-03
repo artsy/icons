@@ -2,4 +2,5 @@
 build/src
 build/svg
 dist
+docs/.next
 node_modules
