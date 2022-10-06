@@ -22,6 +22,7 @@ jobs:
           name: build
           command: yarn build
       - auto/shipit
+
 workflows:
   version: 2
   main:

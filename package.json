@@ -1,7 +1,7 @@
 {
   "name": "@artsy/icons",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf build/svg && rm -rf build/src",
