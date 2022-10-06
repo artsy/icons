@@ -3,26 +3,51 @@ version: 2.1
 orbs:
   yarn: artsy/yarn@6.2.0
   auto: artsy/auto@2.1.0
+  _auto: auto/release@0.2.3
+
+executors:
+  node:
+    docker:
+      - image: cimg/node:14.18.1
+
+jobs:
+  build:
+    executor: node
+    steps:
+      - checkout
+      - yarn/install
+      - run: yarn build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist
+  publish:
+    executor: node
+    environment:
+      AUTO_VERSION: << parameters.version >>
+    parameters:
+      version:
+        type: string
+        default: v10.36.5
+      args:
+        type: string
+        default: ""
+    steps:
+      - attach_workspace:
+          at: .
+      - yarn/pre-release
+      - _auto/shipit:
+        arguments: << parameters.args >>
 
 workflows:
   build_and_verify:
     jobs:
-      - yarn/run:
-          name: build
-          script: "build"
+      - build
       - yarn/workflow-queue
       - yarn/update-cache:
           requires:
             - yarn/workflow-queue
-      - auto/publish-canary:
-          context: npm-deploy
-          filters:
-            branches:
-              ignore: main
-          requires:
-            - yarn/update-cache
-            - build
-      - auto/publish:
+      - publish:
           context: npm-deploy
           filters:
             branches:
