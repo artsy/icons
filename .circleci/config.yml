@@ -3,6 +3,17 @@ version: 2.1
 orbs:
   yarn: artsy/yarn@6.2.0
   auto: artsy/auto@2.1.0
+  aws-s3: circleci/aws-s3@2.0.0
+
+jobs:
+  deploy-docs:
+    docker:
+      - image: "cimg/python:3.10"
+    steps:
+      - aws-s3/sync:
+          arguments: --acl public-read
+          from: docs/public
+          to: "s3://artsy-static-sites/artsy-icons"
 
 workflows:
   build_and_verify:
@@ -25,3 +36,26 @@ workflows:
               only: main
           requires:
             - yarn/update-cache
+
+      # Docs
+      - yarn/run:
+          name: build-docs
+          script: "build:docs"
+          post-steps:
+            - persist_to_workspace:
+                root: .
+                paths:
+                  - docs/public
+          filters:
+            branches:
+              only: main
+      - deploy-docs:
+          context: static-sites-uploader
+          requires:
+            - build-docs
+          pre-steps:
+            - attach_workspace:
+                at: .
+          filters:
+            branches:
+              only: main
