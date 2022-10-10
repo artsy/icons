@@ -2,4 +2,5 @@
 .build
 dist
 docs/.next
+docs/build
 node_modules
