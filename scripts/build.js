@@ -6,13 +6,13 @@ const path = require("path");
 const { version } = require("../package.json");
 const write = require("./write");
 
-if (!fs.existsSync("build/svg")) {
+if (!fs.existsSync(".build/svg")) {
   console.error("Requires optimization step to be run first");
   return;
 }
 
-const filepaths = glob.sync("build/svg/*.svg");
-const BUILD_PATH = path.join(__dirname, "..", "build", "src");
+const filepaths = glob.sync(".build/svg/*.svg");
+const BUILD_PATH = path.join(__dirname, "..", ".build", "src");
 
 const files = write({
   svgs: filepaths.map((filepath) => ({

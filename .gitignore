@@ -1,6 +1,5 @@
 .DS_Store
-build/src
-build/svg
+.build
 dist
 docs/.next
 node_modules
