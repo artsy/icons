@@ -4,10 +4,12 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
+    "build:docs": "yarn build && cd docs && yarn install && yarn build",
     "clean": "rm -rf .build/svg && rm -rf .build/src",
     "compile": "tsc -p . && cp .build/src/package.json dist/package.json",
+    "docs": "yarn build && cd docs && yarn install && yarn dev",
     "optimize": "svgo src -o .build/svg --config=svgo.config.js",
-    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
     "prepublish": "yarn build",
     "release": "auto shipit"
   },
