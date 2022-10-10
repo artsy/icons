@@ -9,7 +9,7 @@
     "jsx": "react",
     "declaration": true,
     "moduleResolution": "node",
-    "rootDir": "build/src",
+    "rootDir": ".build/src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["build/src/*.ts"],
+  "include": [".build/src/*.ts"],
   "exclude": ["node_modules"]
 }
