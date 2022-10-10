@@ -12,7 +12,7 @@ jobs:
     steps:
       - aws-s3/sync:
           arguments: --acl public-read
-          from: docs/public
+          from: docs/build
           to: "s3://artsy-static-sites/artsy-icons"
 
 workflows:
@@ -45,7 +45,7 @@ workflows:
             - persist_to_workspace:
                 root: .
                 paths:
-                  - docs/public
+                  - docs/build
           filters:
             branches:
               only: main
