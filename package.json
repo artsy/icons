@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
-    "build:docs": "yarn build && cd docs && yarn install && yarn build",
+    "build:docs": "yarn build && cd docs && yarn install && yarn export",
     "clean": "rm -rf .build/svg && rm -rf .build/src",
     "compile": "tsc -p . && cp .build/src/package.json dist/package.json",
     "docs": "yarn build && cd docs && yarn install && yarn dev",
