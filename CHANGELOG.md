@@ -1,3 +1,28 @@
+# v0.3.0 (Tue Oct 11 2022)
+
+#### 🚀  Enhancement
+
+- chore(docs): fix build [#10](https://github.com/artsy/icons/pull/10) ([@damassi](https://github.com/damassi))
+- chore(docs): add docs publishing [#8](https://github.com/artsy/icons/pull/8) ([@damassi](https://github.com/damassi))
+
+#### 🐛  Bug Fix
+
+- chore(deploy): test increments [#11](https://github.com/artsy/icons/pull/11) ([@damassi](https://github.com/damassi))
+
+#### ⚠️ Pushed to `main`
+
+- kick ci ([@damassi](https://github.com/damassi))
+
+#### 🏠  Internal
+
+- chore(docs): fix build [#9](https://github.com/artsy/icons/pull/9) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v0.1.0 (Mon Oct 10 2022)
 
 #### 🚀  Enhancement
