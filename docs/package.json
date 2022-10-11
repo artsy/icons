@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "yarn build && next export -o build",
     "start": "next start",
     "lint": "next lint",
     "refresh": "rm -rf .next/cache && rm -rf node_modules/@artsy/icons && yarn add file:../dist"
