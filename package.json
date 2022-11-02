@@ -8,7 +8,7 @@
     "build:docs": "yarn build && cd docs && yarn install && yarn export",
     "clean": "rm -rf .build/svg && rm -rf .build/src",
     "compile": "tsc -p . && cp .build/src/package.json dist/package.json",
-    "docs": "yarn build && cd docs && yarn install && yarn dev",
+    "docs": "yarn build && cd docs && yarn install && yarn refresh && yarn dev",
     "optimize": "svgo src -o .build/svg --config=svgo.config.js",
     "prepublish": "yarn build",
     "release": "auto shipit"
