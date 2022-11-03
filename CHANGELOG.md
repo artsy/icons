@@ -1,3 +1,16 @@
+# v1.0.0 (Thu Nov 03 2022)
+
+#### 💥  Breaking Change
+
+- chore: manually bumps version [#13](https://github.com/artsy/icons/pull/13) ([@dzucconi](https://github.com/dzucconi))
+- feat: imports latest icons [#12](https://github.com/artsy/icons/pull/12) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v0.3.0 (Tue Oct 11 2022)
 
 #### 🚀  Enhancement
