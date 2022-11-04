@@ -102,7 +102,7 @@ const write = ({ svgs }) => {
   });
 
   return [
-    { filepath: "index.ts", source: getIndexSource({ iconFiles }) },
+    { filepath: "allIcons.ts", source: getIndexSource({ iconFiles }) },
     { filepath: "Box.tsx", source: getBoxSource() },
     ...iconFiles,
   ];

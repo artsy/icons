@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import * as Icons from "@artsy/icons";
+import * as Icons from "@artsy/icons/allIcons";
 import {
   Box,
   Column,
