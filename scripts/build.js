@@ -1,14 +1,13 @@
-"use strict";
+// @ts-check
 
 const glob = require("glob");
 const fs = require("fs-extra");
 const path = require("path");
-const { version } = require("../package.json");
 const write = require("./write");
 
 if (!fs.existsSync(".build/svg")) {
   console.error("Requires optimization step to be run first");
-  return;
+  process.exit(1)
 }
 
 const filepaths = glob.sync(".build/svg/*.svg");
@@ -19,7 +18,6 @@ const files = write({
     path: filepath,
     source: fs.readFileSync(filepath, { encoding: "utf8" }),
   })),
-  version,
 });
 
 files.forEach((file) => {

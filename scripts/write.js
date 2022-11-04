@@ -39,22 +39,6 @@ export default ${componentName};
 `;
 };
 
-const getPackageJsonSource = ({ version }) => `{
-  "name": "@artsy/icons",
-  "version": "${version}",
-  "peerDependencies": {
-    "react": ">=16.2.0",
-    "styled-components": "^4",
-    "styled-system": "^5"
-  },
-  "main": "index.js",
-  "types": "index.d.ts",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  }
-}`;
-
 const getBoxSource = () => `
 import styled from "styled-components";
 import { FlexboxProps, LayoutProps, PositionProps, SpaceProps, ColorProps, flexbox, layout, position, space, color, ResponsiveValue, style } from "styled-system";
@@ -85,7 +69,7 @@ ${iconFiles
   .join("\n")}
 `;
 
-const write = ({ svgs, version }) => {
+const write = ({ svgs }) => {
   const iconFiles = svgs.map((svg) => {
     const name = path.basename(svg.path).replace(".svg", "");
     const componentName = `${upperFirst(camelCase(name))}Icon`;
@@ -118,7 +102,6 @@ const write = ({ svgs, version }) => {
   });
 
   return [
-    { filepath: "package.json", source: getPackageJsonSource({ version }) },
     { filepath: "index.ts", source: getIndexSource({ iconFiles }) },
     { filepath: "Box.tsx", source: getBoxSource() },
     ...iconFiles,
