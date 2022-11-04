@@ -1,3 +1,15 @@
+# v3.0.1 (Fri Nov 04 2022)
+
+#### 🐛  Bug Fix
+
+- fix(package): add exports to package.json for proper imports [#14](https://github.com/artsy/icons/pull/14) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v1.0.0 (Thu Nov 03 2022)
 
 #### 💥  Breaking Change
