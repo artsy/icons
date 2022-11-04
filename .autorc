@@ -1,11 +1,3 @@
 {
-  "extends": "@artsy",
-  "plugins": [
-    [
-      "npm",
-      {
-        "publishFolder": "./dist"
-      }
-    ]
-  ]
+  "extends": "@artsy"
 }
