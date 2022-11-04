@@ -23,12 +23,14 @@ yarn add @artsy/icons
 And then later, import icons like so:
 
 ```tsx
-import { ArtsyLogo } from "@artsy/icons"
+import ArtsyLogo from "@artsy/icons/ArtsyLogo"
 
 const MyApp = () => {
   return <ArtsyLogo />
 }
 ```
+
+Alternatively, visit [the docs](https://icons.artsy.net) and select individual icons, which will copy the import path to your clipboard.
 
 ## Adding New Icons
 

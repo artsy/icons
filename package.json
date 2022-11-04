@@ -2,6 +2,9 @@
   "name": "@artsy/icons",
   "version": "3.0.2",
   "main": "dist/index.js",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
   "types": "dist/index.d.ts",
   "license": "MIT",
   "publishConfig": {
@@ -11,7 +14,7 @@
   "scripts": {
     "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
     "build:docs": "yarn build && cd docs && yarn install && yarn export",
-    "clean": "rm -rf .build/svg && rm -rf .build/src",
+    "clean": "rm -rf .build/svg && rm -rf .build/src && rm -rf dist",
     "compile": "tsc -p .",
     "docs": "yarn build && cd docs && yarn install && yarn refresh && yarn dev",
     "optimize": "svgo src -o .build/svg --config=svgo.config.js",
