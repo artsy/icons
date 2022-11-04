@@ -47,7 +47,10 @@ const getPackageJsonSource = ({ version }) => `{
     "styled-components": "^4",
     "styled-system": "^5"
   },
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    "./": "./dist"
+  }
   "types": "index.d.ts",
   "publishConfig": {
     "access": "public",
