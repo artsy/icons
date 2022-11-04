@@ -5,7 +5,13 @@
   "exports": {
     "./*": "./dist/*.js"
   },
-  "types": "dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public",
