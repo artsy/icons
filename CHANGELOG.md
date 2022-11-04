@@ -1,3 +1,19 @@
+# v3.1.0 (Fri Nov 04 2022)
+
+#### 🚀  Enhancement
+
+- fix(exports): constrain export paths [#16](https://github.com/artsy/icons/pull/16) ([@damassi](https://github.com/damassi))
+
+#### 🏠  Internal
+
+- docs(readme): Add Docs [#15](https://github.com/artsy/icons/pull/15) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.0.1 (Fri Nov 04 2022)
 
 #### 🐛  Bug Fix
