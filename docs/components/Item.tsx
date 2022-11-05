@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Clickable, Spacer, Text, useToasts } from "@artsy/palette";
 import { FC } from "react";
-import { ICONS } from "@artsy/icons";
-import * as Icons from "@artsy/icons";
+import { ICONS } from "@artsy/icons/allIcons";
+import * as Icons from "@artsy/icons/allIcons";
 import themeGet from "@styled-system/theme-get";
 
 interface ItemProps {
