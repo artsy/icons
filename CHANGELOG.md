@@ -1,3 +1,15 @@
+# v3.1.1 (Sat Nov 05 2022)
+
+#### 🐛  Bug Fix
+
+- fix(package): add typedExports for dts support [#17](https://github.com/artsy/icons/pull/17) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.1.0 (Fri Nov 04 2022)
 
 #### 🚀  Enhancement
