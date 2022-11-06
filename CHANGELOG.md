@@ -1,3 +1,19 @@
+# v3.1.2 (Sun Nov 06 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md ([@damassi](https://github.com/damassi))
+
+#### 🏠  Internal
+
+- fix(docs): fix build path for docs [#18](https://github.com/artsy/icons/pull/18) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.1.1 (Sat Nov 05 2022)
 
 #### 🐛  Bug Fix
