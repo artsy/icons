@@ -9,7 +9,7 @@ To view available icons, see [the docs](https://icons.artsy.net).
 - **State:** production
 - **GitHub:** [https://github.com/artsy/icons](https://github.com/artsy/icons)
 - **CI/Deploys:** [CircleCi](https://circleci.com/gh/artsy/force); merged PRs to `artsy/icons#main` are automatically deployed to NPM
-- **Docs:** [https://force-storybook.artsy.net](https://force-storybook.artsy.net)
+- **Docs:** [https://icons.artsy.net](https://icons.artsy.net)
 - **Point People:** [@dzucconi](https://github.com/dzucconi)
 
 [![Build Status](https://circleci.com/gh/artsy/icons.svg?style=svg)](https://circleci.com/gh/artsy/icons)
