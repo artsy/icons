@@ -2,8 +2,8 @@
 # yarn lockfile v1
 
 
-"@artsy/icons@file:../dist":
-  version "0.0.0"
+"@artsy/icons@file:..":
+  version "3.1.2"
 
 "@artsy/palette-tokens@^4.0.0":
   version "4.0.0"
