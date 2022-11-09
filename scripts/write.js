@@ -40,13 +40,14 @@ export default ${componentName};
 };
 
 const getBoxSource = () => `
+import * as React from "react";
 import styled from "styled-components";
 import { FlexboxProps, LayoutProps, PositionProps, SpaceProps, ColorProps, flexbox, layout, position, space, color, ResponsiveValue, style } from "styled-system";
 
 const fill = style({ prop: "fill", cssProperty: "color", key: "colors" });
 interface FillProps { fill?: ResponsiveValue<string>; }
 
-export interface BoxProps extends FlexboxProps, LayoutProps, PositionProps, SpaceProps, Omit<ColorProps, "color">, FillProps {};
+export interface BoxProps extends FlexboxProps, LayoutProps, PositionProps, SpaceProps, Omit<ColorProps, "color">, FillProps, React.HTMLAttributes<HTMLElement> {};
 export const Box = styled.div<BoxProps>(flexbox, layout, position, space, color, fill);
 `;
 

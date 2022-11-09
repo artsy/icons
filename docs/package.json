@@ -8,10 +8,10 @@
     "export": "yarn build && next export -o build",
     "start": "next start",
     "lint": "next lint",
-    "refresh": "rm -rf .next/cache && rm -rf node_modules/@artsy/icons && yarn add file:../dist"
+    "refresh": "rm -rf .next/cache && rm -rf node_modules/@artsy/icons && yarn add file:.."
   },
   "dependencies": {
-    "@artsy/icons": "file:../dist",
+    "@artsy/icons": "file:..",
     "@artsy/palette": "^24.3.0",
     "@styled-system/theme-get": "^5.1.2",
     "next": "12.3.1",
