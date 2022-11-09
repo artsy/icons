@@ -1,3 +1,15 @@
+# v3.1.3 (Wed Nov 09 2022)
+
+#### 🐛  Bug Fix
+
+- fix(types): adds complete type [#19](https://github.com/artsy/icons/pull/19) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.1.2 (Sun Nov 06 2022)
 
 #### ⚠️ Pushed to `main`
