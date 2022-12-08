@@ -2,7 +2,7 @@
 
 [@artsy/icons](https://github.com/artsy/icons) is the canonical source for icons used at Artsy, and serves as an automatic build pipeline for generating JSX representations of `.svg` sources that can easily be imported into React apps.
 
-To view available icons, see [the docs](https://icons.artsy.net).
+You can view available icons [here](https://icons.artsy.net) and click to copy the import path of the desired icon.
 
 ## Meta
 
