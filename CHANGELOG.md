@@ -1,3 +1,17 @@
+# v3.1.4 (Wed Dec 14 2022)
+
+#### 🐛  Bug Fix
+
+- feat: add PaperClip icon [#21](https://github.com/artsy/icons/pull/21) ([@lean8086](https://github.com/lean8086))
+- docs: Update README.md [#20](https://github.com/artsy/icons/pull/20) ([@patrinoua](https://github.com/patrinoua))
+
+#### Authors: 2
+
+- Angela Patrinou ([@patrinoua](https://github.com/patrinoua))
+- Leandro Linares ([@lean8086](https://github.com/lean8086))
+
+---
+
 # v3.1.3 (Wed Nov 09 2022)
 
 #### 🐛  Bug Fix
