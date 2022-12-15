@@ -1,3 +1,15 @@
+# v3.1.5 (Thu Dec 15 2022)
+
+#### ⚠️ Pushed to `main`
+
+- icon with color ? ([@patrinoua](https://github.com/patrinoua))
+
+#### Authors: 1
+
+- Angela Patrinou ([@patrinoua](https://github.com/patrinoua))
+
+---
+
 # v3.1.4 (Wed Dec 14 2022)
 
 #### 🐛  Bug Fix
