@@ -1,3 +1,16 @@
+# v3.1.6 (Thu Dec 15 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/artsy/icons ([@patrinoua](https://github.com/patrinoua))
+- revert ([@patrinoua](https://github.com/patrinoua))
+
+#### Authors: 1
+
+- Angela Patrinou ([@patrinoua](https://github.com/patrinoua))
+
+---
+
 # v3.1.5 (Thu Dec 15 2022)
 
 #### ⚠️ Pushed to `main`
