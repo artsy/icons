@@ -1,22 +1,22 @@
 // @ts-check
 
-const glob = require('glob')
-const fs = require('fs-extra')
-const path = require('path')
-const write = require('./write')
+const glob = require("glob")
+const fs = require("fs-extra")
+const path = require("path")
+const write = require("./write")
 
-if (!fs.existsSync('.build/svg')) {
-  console.error('Requires optimization step to be run first')
+if (!fs.existsSync(".build/svg")) {
+  console.error("Requires optimization step to be run first")
   process.exit(1)
 }
 
-const filepaths = glob.sync('.build/svg/*.svg')
-const BUILD_PATH = path.join(__dirname, '..', '.build', 'src')
+const filepaths = glob.sync(".build/svg/*.svg")
+const BUILD_PATH = path.join(__dirname, "..", ".build", "src")
 
 const files = write({
   svgs: filepaths.map((filepath) => ({
     path: filepath,
-    source: fs.readFileSync(filepath, { encoding: 'utf8' }),
+    source: fs.readFileSync(filepath, { encoding: "utf8" }),
   })),
 })
 
