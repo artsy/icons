@@ -1,0 +1,21 @@
+{
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "javascript.validate.enable": true,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}

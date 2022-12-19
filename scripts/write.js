@@ -1,9 +1,9 @@
-"use strict";
+"use strict"
 
-const path = require("path");
-const { transform } = require("@svgr/core");
-const { upperFirst, camelCase } = require("lodash");
-const { parse } = require("svg-parser");
+const path = require("path")
+const { transform } = require("@svgr/core")
+const { upperFirst, camelCase } = require("lodash")
+const { parse } = require("svg-parser")
 
 const SVG_STYLE = {
   position: "absolute",
@@ -13,14 +13,14 @@ const SVG_STYLE = {
   left: "0",
   width: "100%",
   height: "100%",
-};
+}
 
 const getReactSource = ({ componentName, svgSource, width, height }) => {
   const svgAsJsx = transform.sync(svgSource, {
     expandProps: false,
     svgProps: { style: `{svgStyle}`, fill: "currentColor" },
     template: ({ jsx }) => jsx,
-  });
+  })
 
   return `
 import * as React from "react";
@@ -36,8 +36,8 @@ const ${componentName} = (props: BoxProps) => {
 ${componentName}.displayName = '${componentName}';
 
 export default ${componentName};
-`;
-};
+`
+}
 
 const getBoxSource = () => `
 import * as React from "react";
@@ -49,7 +49,7 @@ interface FillProps { fill?: ResponsiveValue<string>; }
 
 export interface BoxProps extends FlexboxProps, LayoutProps, PositionProps, SpaceProps, Omit<ColorProps, "color">, FillProps, React.HTMLAttributes<HTMLElement> {};
 export const Box = styled.div<BoxProps>(flexbox, layout, position, space, color, fill);
-`;
+`
 
 const getIndexSource = ({ iconFiles }) => `
 console.warn("For internal use only. Import from the individual files rather than from the index.");
@@ -65,32 +65,32 @@ export const ICONS = ${JSON.stringify(
 ${iconFiles
   .map(
     ({ fileName, componentName }) =>
-      `export { default as ${componentName} } from './${fileName}';`
+      `export { default as ${componentName} } from './${fileName}'`
   )
   .join("\n")}
-`;
+`
 
 const write = ({ svgs }) => {
   const iconFiles = svgs.map((svg) => {
-    const name = path.basename(svg.path).replace(".svg", "");
-    const componentName = `${upperFirst(camelCase(name))}Icon`;
-    const fileName = componentName;
+    const name = path.basename(svg.path).replace(".svg", "")
+    const componentName = `${upperFirst(camelCase(name))}Icon`
+    const fileName = componentName
 
     const [
       {
         properties: { viewBox },
       },
-    ] = parse(svg.source).children;
+    ] = parse(svg.source).children
     const [_x, _y, width, height] = viewBox
       .split(" ")
-      .map((n) => parseInt(n, 10));
+      .map((n) => parseInt(n, 10))
 
     const source = getReactSource({
       componentName,
       svgSource: svg.source,
       width,
       height,
-    });
+    })
 
     return {
       filepath: `${fileName}.tsx`,
@@ -99,14 +99,14 @@ const write = ({ svgs }) => {
       fileName,
       width,
       height,
-    };
-  });
+    }
+  })
 
   return [
     { filepath: "allIcons.ts", source: getIndexSource({ iconFiles }) },
     { filepath: "Box.tsx", source: getBoxSource() },
     ...iconFiles,
-  ];
-};
+  ]
+}
 
-module.exports = write;
+module.exports = write
