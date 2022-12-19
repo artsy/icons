@@ -5,9 +5,7 @@
   "editor.tabSize": 2,
   "javascript.validate.enable": true,
   "search.exclude": {
-    "**/node_modules": true,
-    "**/graphql": true,
-    ".cache/**": true
+    "**/node_modules": true
   },
   "files.exclude": {
     "**/.git": false
@@ -15,10 +13,6 @@
   "[json]": {
     "editor.formatOnSave": false
   },
-  "[yaml]": {
-    "editor.formatOnSave": false
-  },
-  "prettier.singleQuote": false,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "typescript.tsdk": "node_modules/typescript/lib",
