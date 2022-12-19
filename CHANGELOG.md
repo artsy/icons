@@ -1,3 +1,20 @@
+# v3.1.7 (Mon Dec 19 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: removes absolute path preference ([@dzucconi](https://github.com/dzucconi))
+
+#### 🏠  Internal
+
+- style: [WP-123] prettify files and export [#23](https://github.com/artsy/icons/pull/23) ([@patrinoua](https://github.com/patrinoua))
+
+#### Authors: 2
+
+- Angela Patrinou ([@patrinoua](https://github.com/patrinoua))
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.1.6 (Thu Dec 15 2022)
 
 #### ⚠️ Pushed to `main`
