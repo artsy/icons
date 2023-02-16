@@ -1,3 +1,22 @@
+# v3.2.0 (Thu Feb 16 2023)
+
+#### 🚀  Enhancement
+
+- feat: add `EmptyCheckCircleIcon` [#28](https://github.com/artsy/icons/pull/28) ([@dimatretyak](https://github.com/dimatretyak))
+
+#### 🏠  Internal
+
+- Bump json5 from 2.2.1 to 2.2.3 [#25](https://github.com/artsy/icons/pull/25) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump json5 from 1.0.1 to 1.0.2 in /docs [#26](https://github.com/artsy/icons/pull/26) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump luxon from 1.28.0 to 1.28.1 in /docs [#27](https://github.com/artsy/icons/pull/27) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Dima Tretyak ([@dimatretyak](https://github.com/dimatretyak))
+
+---
+
 # v3.1.7 (Mon Dec 19 2022)
 
 #### ⚠️ Pushed to `main`
