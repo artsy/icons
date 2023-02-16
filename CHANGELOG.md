@@ -1,3 +1,15 @@
+# v3.2.1 (Thu Feb 16 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: rename `EmptyCheckCircleIcon` to `EmptyCheckCircle` ([@dimatretyak](https://github.com/dimatretyak))
+
+#### Authors: 1
+
+- Dima Tretyak ([@dimatretyak](https://github.com/dimatretyak))
+
+---
+
 # v3.2.0 (Thu Feb 16 2023)
 
 #### 🚀  Enhancement
