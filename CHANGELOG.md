@@ -1,3 +1,15 @@
+# v3.2.2 (Wed Apr 12 2023)
+
+#### 🐛  Bug Fix
+
+- fix(show,hide): corrects size and placement [#29](https://github.com/artsy/icons/pull/29) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.2.1 (Thu Feb 16 2023)
 
 #### ⚠️ Pushed to `main`
