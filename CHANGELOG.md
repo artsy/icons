@@ -1,3 +1,15 @@
+# v3.3.1 (Wed Apr 26 2023)
+
+#### 🐛  Bug Fix
+
+- fix: imports updated image set icon [#32](https://github.com/artsy/icons/pull/32) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.3.0 (Wed Apr 26 2023)
 
 #### 🚀  Enhancement
