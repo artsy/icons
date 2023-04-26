@@ -1,3 +1,15 @@
+# v3.4.0 (Wed Apr 26 2023)
+
+#### 🚀  Enhancement
+
+- feat: adds pending icon [#33](https://github.com/artsy/icons/pull/33) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.3.1 (Wed Apr 26 2023)
 
 #### 🐛  Bug Fix
