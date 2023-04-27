@@ -1,3 +1,15 @@
+# v3.5.1 (Thu Apr 27 2023)
+
+#### 🐛  Bug Fix
+
+- fix(pending): updates svg [#35](https://github.com/artsy/icons/pull/35) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.5.0 (Wed Apr 26 2023)
 
 #### 🚀  Enhancement
