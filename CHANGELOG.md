@@ -1,3 +1,15 @@
+# v3.6.1 (Mon May 08 2023)
+
+#### 🐛  Bug Fix
+
+- fix: renames dollar => money [#37](https://github.com/artsy/icons/pull/37) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.6.0 (Mon May 08 2023)
 
 #### 🚀  Enhancement
