@@ -1,9 +1,17 @@
+const removeAttrsIfSameFill = require("./svgo/removeAttrsIfSameFill")
+
 module.exports = {
   plugins: [
     "removeDimensions",
     "removeViewBox",
     "removeXMLNS",
     "removeTitle",
-    { name: "removeAttrs", params: { attrs: "(stroke|fill)" } },
+    "collapseGroups",
+    "removeUselessDefs",
+    "inlineStyles",
+    {
+      ...removeAttrsIfSameFill,
+      params: { attrs: "(stroke|fill)" },
+    },
   ],
-};
+}
