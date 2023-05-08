@@ -9,6 +9,9 @@ module.exports = {
     "collapseGroups",
     "removeUselessDefs",
     "inlineStyles",
+    "removeComments",
+    "removeUnknownsAndDefaults",
+    "cleanupIds",
     {
       ...removeAttrsIfSameFill,
       params: { attrs: "(stroke|fill)" },
