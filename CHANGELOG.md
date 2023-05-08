@@ -1,3 +1,15 @@
+# v3.6.0 (Mon May 08 2023)
+
+#### 🚀  Enhancement
+
+- feat: adds apple, pinterest, tumblr logos; dollar [#36](https://github.com/artsy/icons/pull/36) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.5.1 (Thu Apr 27 2023)
 
 #### 🐛  Bug Fix
