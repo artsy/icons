@@ -1,3 +1,15 @@
+# v3.8.0 (Tue May 09 2023)
+
+#### 🚀  Enhancement
+
+- feat: adds cc icons [#39](https://github.com/artsy/icons/pull/39) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.7.0 (Mon May 08 2023)
 
 #### 🚀  Enhancement
