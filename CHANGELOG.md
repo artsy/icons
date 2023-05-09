@@ -1,3 +1,15 @@
+# v3.8.1 (Tue May 09 2023)
+
+#### 🐛  Bug Fix
+
+- fix: renames card => unknown card [#40](https://github.com/artsy/icons/pull/40) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.8.0 (Tue May 09 2023)
 
 #### 🚀  Enhancement
