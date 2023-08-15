@@ -1,3 +1,19 @@
+# v3.9.0 (Tue Aug 15 2023)
+
+#### 🚀  Enhancement
+
+- feat(icon): Add Demand icon [#44](https://github.com/artsy/icons/pull/44) ([@damassi](https://github.com/damassi))
+
+#### ⚠️ Pushed to `main`
+
+- chore(version): Publish 1.9.0 ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.8.1 (Tue May 09 2023)
 
 #### 🐛  Bug Fix
