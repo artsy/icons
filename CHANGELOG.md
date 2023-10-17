@@ -1,3 +1,15 @@
+# v3.11.0 (Tue Oct 17 2023)
+
+#### 🚀  Enhancement
+
+- feat: adds sort icon [#45](https://github.com/artsy/icons/pull/45) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.9.0 (Tue Aug 15 2023)
 
 #### 🚀  Enhancement
