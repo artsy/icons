@@ -1,3 +1,15 @@
+# v3.12.0 (Wed Jan 17 2024)
+
+#### 🚀  Enhancement
+
+- feat(icon): Add `Trending` icon [#46](https://github.com/artsy/icons/pull/46) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.11.0 (Tue Oct 17 2023)
 
 #### 🚀  Enhancement
