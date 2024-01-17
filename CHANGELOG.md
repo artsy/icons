@@ -1,3 +1,15 @@
+# v3.13.0 (Wed Jan 17 2024)
+
+#### 🚀  Enhancement
+
+- feat(icon): Add `SendOffer` [#47](https://github.com/artsy/icons/pull/47) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.12.0 (Wed Jan 17 2024)
 
 #### 🚀  Enhancement
