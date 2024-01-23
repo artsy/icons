@@ -1,3 +1,15 @@
+# v3.15.0 (Tue Jan 23 2024)
+
+#### 🚀  Enhancement
+
+- Revert "Revert "feat(icon): Add `SendOffer`"" [#49](https://github.com/artsy/icons/pull/49) ([@leamotta](https://github.com/leamotta))
+
+#### Authors: 1
+
+- [@leamotta](https://github.com/leamotta)
+
+---
+
 # v3.14.0 (Wed Jan 17 2024)
 
 #### 🚀  Enhancement
