@@ -1,3 +1,15 @@
+# v3.17.0 (Tue Feb 27 2024)
+
+#### 🚀  Enhancement
+
+- feat: adds x logo [#51](https://github.com/artsy/icons/pull/51) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.16.0 (Wed Jan 24 2024)
 
 #### 🚀  Enhancement
