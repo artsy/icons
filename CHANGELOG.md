@@ -1,3 +1,15 @@
+# v3.18.0 (Mon Apr 22 2024)
+
+#### 🚀  Enhancement
+
+- feat: adds bag icon [#52](https://github.com/artsy/icons/pull/52) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.17.0 (Tue Feb 27 2024)
 
 #### 🚀  Enhancement
