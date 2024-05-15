@@ -1,3 +1,15 @@
+# v3.19.0 (Wed May 15 2024)
+
+#### 🚀  Enhancement
+
+- feat: add bag filled icon [#53](https://github.com/artsy/icons/pull/53) ([@rquartararo](https://github.com/rquartararo))
+
+#### Authors: 1
+
+- Rachel Quartararo ([@rquartararo](https://github.com/rquartararo))
+
+---
+
 # v3.18.0 (Mon Apr 22 2024)
 
 #### 🚀  Enhancement
