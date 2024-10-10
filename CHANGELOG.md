@@ -1,3 +1,15 @@
+# v3.20.0 (Thu Oct 10 2024)
+
+#### 🚀  Enhancement
+
+- feat: update and add new credit card icons [#54](https://github.com/artsy/icons/pull/54) ([@starsirius](https://github.com/starsirius))
+
+#### Authors: 1
+
+- Chung-Yi Chi ([@starsirius](https://github.com/starsirius))
+
+---
+
 # v3.19.0 (Wed May 15 2024)
 
 #### 🚀  Enhancement
