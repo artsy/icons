@@ -1,3 +1,15 @@
+# v3.21.0 (Mon Oct 14 2024)
+
+#### 🚀  Enhancement
+
+- fix: correct file name for Cartes Bancaires icon [#55](https://github.com/artsy/icons/pull/55) ([@starsirius](https://github.com/starsirius))
+
+#### Authors: 1
+
+- Chung-Yi Chi ([@starsirius](https://github.com/starsirius))
+
+---
+
 # v3.20.0 (Thu Oct 10 2024)
 
 #### 🚀  Enhancement
