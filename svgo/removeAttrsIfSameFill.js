@@ -3,6 +3,7 @@
 const { selectAll } = require("css-select")
 const xastAdaptor = require("svgo/lib/svgo/css-select-adapter")
 const removeAttrs = require("svgo/plugins/removeAttrs")
+const path = require('path')
 
 const CSS_SELECT_OPTIONS = {
   xmlMode: true,
@@ -13,6 +14,17 @@ const PLUGIN_NAME = "removeAttrsIfSameFill"
 const ENOATTRS = `Warning: The plugin "${PLUGIN_NAME}" requires the "attrs" parameter.
 It should have a pattern to remove, otherwise the plugin is a noop.
 `
+
+const IGNORED_FILES = [
+  "Amex",
+  "CartesBancaires",
+  "DinersClub",
+  "Discover",
+  "JCB",
+  "Mastercard",
+  "UnionPay",
+  "Visa",
+]
 
 exports.name = PLUGIN_NAME
 exports.type = "full"
@@ -27,6 +39,12 @@ exports.fn = (ast, params, info) => {
   if (typeof params.attrs == "undefined") {
     console.warn(ENOATTRS)
     return null
+  }
+
+  const filename = path.parse(info.path).name
+
+  if (IGNORED_FILES.includes(filename)) {
+    return
   }
 
   const attrs = Array.isArray(params.attrs) ? params.attrs : [params.attrs]
