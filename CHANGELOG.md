@@ -1,3 +1,15 @@
+# v3.22.0 (Tue Oct 22 2024)
+
+#### 🚀  Enhancement
+
+- fix: do not remove fill attributes for credit card icons [#56](https://github.com/artsy/icons/pull/56) ([@starsirius](https://github.com/starsirius))
+
+#### Authors: 1
+
+- Chung-Yi Chi ([@starsirius](https://github.com/starsirius))
+
+---
+
 # v3.21.0 (Mon Oct 14 2024)
 
 #### 🚀  Enhancement
