@@ -1,3 +1,15 @@
+# v3.22.1 (Thu Nov 21 2024)
+
+#### 🐛  Bug Fix
+
+- fix(deps): fixes peerdep ref [#57](https://github.com/artsy/icons/pull/57) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.22.0 (Tue Oct 22 2024)
 
 #### 🚀  Enhancement
