@@ -29,20 +29,33 @@
   },
   "peerDependencies": {
     "react": ">=16.2.0",
+    "react-native": "*",
+    "react-native-svg": "*",
     "styled-components": ">=4",
     "styled-system": "^5"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "react-native-svg": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@artsy/auto-config": "^1.2.0",
     "@svgr/core": "^6.3.1",
     "@types/node": "^18.8.3",
     "@types/react": "^18.0.21",
+    "@types/react-native": "^0.73.0",
     "@types/styled-components": "^5.1.26",
+    "@types/styled-components-react-native": "^5.2.5",
     "@types/styled-system": "^5.1.15",
     "auto": "^10.37.6",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "lodash": "^4.17.21",
+    "react-native-svg": "^15.11.1",
     "svg-parser": "^2.0.4",
     "svgo": "^3.0.2",
     "typescript": "^4.8.3"
