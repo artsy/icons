@@ -6,18 +6,22 @@ import * as Icons from "@artsy/icons/allIcons";
 import themeGet from "@styled-system/theme-get";
 
 interface ItemProps {
-  icon: typeof ICONS[number];
+  icon: (typeof ICONS)[number];
+  clipboardScheme: "native" | "svg";
 }
 
 type IconComponent = Exclude<typeof Icons[keyof typeof Icons], typeof ICONS>;
 
-export const Item: FC<ItemProps> = ({ icon }) => {
+export const Item: FC<ItemProps> = ({ icon, clipboardScheme }) => {
   const { sendToast } = useToasts();
 
   const handleClick = () => {
-    navigator?.clipboard.writeText(
-      `import ${icon.componentName} from "@artsy/icons/${icon.fileName}";`
-    );
+    const importStatement =
+      clipboardScheme === "native"
+        ? `import ${icon.componentName} from "@artsy/icons/native/${icon.fileName}";`
+        : `import ${icon.componentName} from "@artsy/icons/${icon.fileName}";`;
+
+    navigator?.clipboard.writeText(importStatement);
 
     sendToast({
       message: `Import for ${icon.componentName} copied to clipboard`,

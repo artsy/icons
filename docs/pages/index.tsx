@@ -6,6 +6,8 @@ import {
   Column,
   GridColumns,
   Input,
+  Radio,
+  RadioGroup,
   Spacer,
   Toasts,
 } from "@artsy/palette";
@@ -14,6 +16,9 @@ import { Item } from "../components/Item";
 
 const Home: NextPage = () => {
   const [icons, setIcons] = useState(Icons.ICONS);
+  const [clipboardScheme, setClipboardScheme] = useState<"native" | "svg">(
+    "svg"
+  );
 
   const handleChange = ({
     target: { value },
@@ -51,6 +56,20 @@ const Home: NextPage = () => {
           <Input placeholder="Search" onChange={handleChange} autoFocus />
         </Box>
 
+        <Box width={["100%", "50%"]} mx="auto" mt={6}>
+          <RadioGroup
+            defaultValue="svg"
+            onSelect={(value) => setClipboardScheme(value as "native" | "svg")}
+            display="flex"
+            justifyContent="center"
+            flexDirection={["column", "row"]}
+          >
+            <Radio value="svg">SVG</Radio>
+            <Spacer my={[1, 0]} mx={[0, 1]} />
+            <Radio value="native">Native</Radio>
+          </RadioGroup>
+        </Box>
+
         <Spacer mt={6} />
 
         <GridColumns>
@@ -58,7 +77,7 @@ const Home: NextPage = () => {
             return (
               // @ts-ignore
               <Column span={[6, 4, 2]} key={icon.componentName}>
-                <Item icon={icon} />
+                <Item icon={icon} clipboardScheme={clipboardScheme} />
               </Column>
             );
           })}
