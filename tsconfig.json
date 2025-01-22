@@ -19,9 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "skipLibCheck": true
   },
   "include": [".build/src/*.ts", ".build/src/native/*.tsx"],
   "exclude": ["node_modules"]

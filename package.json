@@ -3,7 +3,8 @@
   "version": "3.25.6",
   "main": "dist/index.js",
   "exports": {
-    "./*": "./dist/*.js"
+    "./*": "./dist/*.js",
+    "./native/*": "./dist/native/*.js"
   },
   "typesVersions": {
     "*": {
