@@ -18,7 +18,7 @@ export const Item: FC<ItemProps> = ({ icon, clipboardScheme }) => {
   const handleClick = () => {
     const importStatement =
       clipboardScheme === "native"
-        ? `import ${icon.componentName} from "@artsy/icons/native/${icon.fileName}";`
+        ? `import { ${icon.componentName} } from "@artsy/icons/native";`
         : `import ${icon.componentName} from "@artsy/icons/${icon.fileName}";`;
 
     navigator?.clipboard.writeText(importStatement);
