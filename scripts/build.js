@@ -12,7 +12,7 @@ if (!fs.existsSync(".build/svg")) {
 }
 
 const filepaths = glob.sync(".build/svg/*.svg")
-const BUILD_PATH = path.join(__dirname, "..", ".build", "src")
+const BUILD_PATH = path.join(__dirname, "..", ".build", "src", "web")
 const BUILD_PATH_NATIVE = path.join(__dirname, "..", ".build", "src", "native")
 
 const files = write({
@@ -24,7 +24,7 @@ const files = write({
 
 files.forEach((file) => {
   fs.outputFile(path.join(BUILD_PATH, file.filepath), file.source, (err) => {
-    console.log(`Wrote: ${file.filepath}`)
+    console.log(`Wrote: web/${file.filepath}`)
     if (err) console.error(err)
   })
 })

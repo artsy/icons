@@ -12,7 +12,7 @@ const getReactNativeSource = ({ componentName, svgSource, width, height }) => {
     typescript: true,
     svgProps: {
       fill: "{props.fill}",
-      viewBox: `0 0 ${height} ${width}`,
+      viewBox: `0 0 ${width} ${height}`,
       height: "{scaledHeight}",
       width: "{scaledWidth}",
     },
@@ -30,29 +30,25 @@ const reactNativeIconTemplate = (
 ) => {
   return tpl`
 ${variables.imports};
-import {getScaledDimensions, getStyledIcon, IconProps, DEFAULT_SIZE} from './Icon';
+import {getScaledDimensions, getStyledIcon, IconProps} from './Icon';
 
 interface ${componentName + "Props"} extends IconProps, SvgProps {
   fill?: string;
 }
 
 const ScaledSvgComponent = (props: ${componentName + "Props"}) => {
-  const { scaledHeight, scaledWidth } = getScaledDimensions(${height}, ${width});
+  const { scaledWidth, scaledHeight } = getScaledDimensions(${width}, ${height});
 
   return ${variables.jsx};
 };
 
-const ${componentName} = getStyledIcon(ScaledSvgComponent);
+export const ${componentName} = getStyledIcon(ScaledSvgComponent);
 
 ${componentName}.defaultProps = {
-  fill: "black",
-  width: DEFAULT_SIZE,
-  height: DEFAULT_SIZE,
+  fill: "black"
 };
 
 ${componentName}.displayName = "${componentName}";
-
-export default ${componentName};
 `
 }
 
@@ -62,16 +58,18 @@ import { SvgProps } from "react-native-svg"
 import styled from "styled-components"
 import { left, LeftProps, position, PositionProps, right, RightProps, space, SpaceProps, top, TopProps } from "styled-system"
 
-export const DEFAULT_SIZE = 18
-
 export interface IconProps extends SvgProps, SpaceProps, PositionProps, TopProps, RightProps, LeftProps { fill?: string }
 
-export const getScaledDimensions = (width = DEFAULT_SIZE, height = DEFAULT_SIZE) => {
+export const getScaledDimensions = (width: number, height: number) => {
+  if (!width || !height) {
+    throw new Error("#getScaledDimensions, Error: 'height' and 'width' are required");
+  }
+
   const fontScale = PixelRatio.getFontScale()
   const scaledWidth = typeof width === "string" ? width : fontScale * width
   const scaledHeight = typeof height === "string" ? height : fontScale * height
 
-  return { scaledHeight, scaledWidth }
+  return { scaledWidth, scaledHeight }
 }
 
 export const getStyledIcon = (Icon: React.FC) => {
@@ -79,8 +77,7 @@ export const getStyledIcon = (Icon: React.FC) => {
 }
 `
 
-const getIndexSource = ({ iconFiles }) => `
-console.warn("For internal use only. Import from the individual files rather than from the index.");
+const getAllIconsSource = ({ iconFiles }) => `
 export const ICONS = ${JSON.stringify(
   iconFiles.map(({ fileName, componentName, width, height }) => ({
     fileName,
@@ -93,9 +90,13 @@ export const ICONS = ${JSON.stringify(
 ${iconFiles
   .map(
     ({ fileName, componentName }) =>
-      `export { default as ${componentName} } from './${fileName}'`
+      `export { ${componentName} } from './${fileName}'`
   )
   .join("\n")}
+`
+
+const getIndexSource = () => `
+export * from "./allIcons";
 `
 
 const writeNative = ({ svgs }) => {
@@ -131,7 +132,8 @@ const writeNative = ({ svgs }) => {
   })
 
   return [
-    { filepath: "allIcons.ts", source: getIndexSource({ iconFiles }) },
+    { filepath: "allIcons.ts", source: getAllIconsSource({ iconFiles }) },
+    { filepath: "index.ts", source: getIndexSource() },
     { filepath: "Icon.tsx", source: getIconSource() },
     ...iconFiles,
   ]
