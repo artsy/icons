@@ -1,3 +1,15 @@
+# v3.23.0 (Tue Feb 04 2025)
+
+#### 🚀  Enhancement
+
+- feat: adding new arrow back icon [#59](https://github.com/artsy/icons/pull/59) ([@JanaeHijaz](https://github.com/JanaeHijaz))
+
+#### Authors: 1
+
+- Janae Hijaz Edwards ([@JanaeHijaz](https://github.com/JanaeHijaz))
+
+---
+
 # v3.22.1 (Thu Nov 21 2024)
 
 #### 🐛  Bug Fix
