@@ -1,3 +1,15 @@
+# v3.25.0 (Tue Feb 18 2025)
+
+#### 🚀  Enhancement
+
+- feat(upload-file): Add UploadFile icon [#61](https://github.com/artsy/icons/pull/61) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.24.0 (Tue Feb 18 2025)
 
 #### 🚀  Enhancement
