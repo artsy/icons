@@ -1,3 +1,15 @@
+# v3.24.0 (Tue Feb 18 2025)
+
+#### 🚀  Enhancement
+
+- feat(csv): Add CSVFile icon [#60](https://github.com/artsy/icons/pull/60) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.23.0 (Tue Feb 04 2025)
 
 #### 🚀  Enhancement
