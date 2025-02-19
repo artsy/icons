@@ -1,3 +1,15 @@
+# v3.25.2 (Wed Feb 19 2025)
+
+#### 🐛  Bug Fix
+
+- fix(icons): fix csv and upload 2 [#63](https://github.com/artsy/icons/pull/63) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.25.1 (Wed Feb 19 2025)
 
 #### 🐛  Bug Fix
