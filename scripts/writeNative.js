@@ -41,7 +41,7 @@ interface ${
 const ScaledSvgComponent = ({ fill, ...props }: ${componentName + "Props"}) => {
   const theme = useTheme();
   const { scaledWidth, scaledHeight } = getScaledDimensions(${width}, ${height});
-  const fillColor = get(theme, \`colors.\${fill}\`, 'black');
+  const fillColor = get(theme, \`colors.\${fill}\`, fill ?? "black);
 
   return ${variables.jsx};
 };
