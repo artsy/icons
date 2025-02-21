@@ -11,7 +11,7 @@ const getReactNativeSource = ({ componentName, svgSource, width, height }) => {
     expandProps: "end",
     typescript: true,
     svgProps: {
-      fill: "{props.fill}",
+      fill: "{fillColor}",
       viewBox: `0 0 ${width} ${height}`,
       height: "{scaledHeight}",
       width: "{scaledWidth}",
@@ -30,14 +30,18 @@ const reactNativeIconTemplate = (
 ) => {
   return tpl`
 ${variables.imports};
-import {getScaledDimensions, getStyledIcon, IconProps} from './Icon';
+import { getScaledDimensions, getStyledIcon, IconProps } from './Icon';
+import { get } from "styled-system";
+import { useTheme } from "styled-components/native";
 
-interface ${componentName + "Props"} extends IconProps, SvgProps {
-  fill?: string;
-}
+interface ${
+    componentName + "Props"
+  } extends IconProps, Omit<SvgProps, "fill"> {}
 
-const ScaledSvgComponent = (props: ${componentName + "Props"}) => {
+const ScaledSvgComponent = ({ fill, ...props }: ${componentName + "Props"}) => {
+  const theme = useTheme();
   const { scaledWidth, scaledHeight } = getScaledDimensions(${width}, ${height});
+  const fillColor = get(theme, \`colors.\${fill}\`, 'black');
 
   return ${variables.jsx};
 };
@@ -45,7 +49,7 @@ const ScaledSvgComponent = (props: ${componentName + "Props"}) => {
 export const ${componentName} = getStyledIcon(ScaledSvgComponent);
 
 ${componentName}.defaultProps = {
-  fill: "black"
+  fill: "black100"
 };
 
 ${componentName}.displayName = "${componentName}";
@@ -56,9 +60,9 @@ const getIconSource = () => `
 import { PixelRatio } from "react-native"
 import { SvgProps } from "react-native-svg"
 import styled from "styled-components"
-import { left, LeftProps, position, PositionProps, right, RightProps, space, SpaceProps, top, TopProps } from "styled-system"
+import { SpaceProps, PositionProps, TopProps, RightProps, LeftProps, ColorProps, ResponsiveValue, space, position, top, right, left } from "styled-system"
 
-export interface IconProps extends SvgProps, SpaceProps, PositionProps, TopProps, RightProps, LeftProps { fill?: string }
+export interface IconProps extends Omit<SvgProps, "fill">, SpaceProps, PositionProps, TopProps, RightProps, LeftProps, Omit<ColorProps, "color" | "opacity"> { fill?: ResponsiveValue<string> }
 
 export const getScaledDimensions = (width: number, height: number) => {
   if (!width || !height) {
@@ -73,7 +77,15 @@ export const getScaledDimensions = (width: number, height: number) => {
 }
 
 export const getStyledIcon = (Icon: React.FC) => {
-  return styled(Icon)<IconProps>({position: "relative"}, space, top, right, left, position)
+  return styled(Icon)<IconProps>\`
+  position: relative;
+
+  \${space};
+  \${top};
+  \${right};
+  \${left};
+  \${position};
+  \`
 }
 `
 
