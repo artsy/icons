@@ -3,12 +3,14 @@
   "version": "3.25.6",
   "main": "dist/index.js",
   "exports": {
-    "./*": "./dist/*.js"
+    "./*": "./dist/web/*.js",
+    "./native": "./dist/native/index.js"
   },
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/*"
+        "./dist/web/*",
+        "./dist/native/*"
       ]
     }
   },
@@ -29,8 +31,18 @@
   },
   "peerDependencies": {
     "react": ">=16.2.0",
+    "react-native": ">=0.70.15",
+    "react-native-svg": ">=15.0.0",
     "styled-components": ">=4",
     "styled-system": "^5"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "react-native-svg": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@artsy/auto-config": "^1.2.0",
@@ -38,11 +50,14 @@
     "@types/node": "^18.8.3",
     "@types/react": "^18.0.21",
     "@types/styled-components": "^5.1.26",
+    "@types/styled-components-react-native": "^5.2.5",
     "@types/styled-system": "^5.1.15",
     "auto": "^10.37.6",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "lodash": "^4.17.21",
+    "react-native": "^0.70.15",
+    "react-native-svg": "^15.0.0",
     "svg-parser": "^2.0.4",
     "svgo": "^3.0.2",
     "typescript": "^4.8.3"
