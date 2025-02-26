@@ -1,3 +1,15 @@
+# v3.25.7 (Wed Feb 26 2025)
+
+#### 🐛  Bug Fix
+
+- feat(hack15): add React Native SVGs to Artsy Icons [#58](https://github.com/artsy/icons/pull/58) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.25.6 (Wed Feb 19 2025)
 
 #### 🐛  Bug Fix
