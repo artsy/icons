@@ -1,3 +1,15 @@
+# v3.26.0 (Mon Mar 17 2025)
+
+#### 🚀  Enhancement
+
+- feat: Add spreadsheet icon [#68](https://github.com/artsy/icons/pull/68) ([@damassi](https://github.com/damassi))
+
+#### Authors: 1
+
+- Christopher Pappas ([@damassi](https://github.com/damassi))
+
+---
+
 # v3.25.7 (Wed Feb 26 2025)
 
 #### 🐛  Bug Fix
