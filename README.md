@@ -20,10 +20,20 @@ You can view available icons [here](https://icons.artsy.net) and click to copy t
 yarn add @artsy/icons
 ```
 
-And then later, import icons like so:
+And then later, import icons like so for web:
 
 ```tsx
 import ArtsyLogo from "@artsy/icons/ArtsyLogo"
+
+const MyApp = () => {
+  return <ArtsyLogo />
+}
+```
+
+Or for React Native:
+
+```tsx
+import { ArtsyLogo } from "@artsy/icons/native"
 
 const MyApp = () => {
   return <ArtsyLogo />
