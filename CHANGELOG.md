@@ -1,3 +1,15 @@
+# v3.28.0 (Tue Apr 15 2025)
+
+#### 🚀  Enhancement
+
+- feat(EMI-2412): Update ApplePayMark icon [#70](https://github.com/artsy/icons/pull/70) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.27.0 (Thu Apr 03 2025)
 
 #### 🚀  Enhancement
