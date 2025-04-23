@@ -49,7 +49,7 @@ const ScaledSvgComponent = ({ fill, ...props }: ${componentName + "Props"}) => {
 export const ${componentName} = getStyledIcon(ScaledSvgComponent);
 
 ${componentName}.defaultProps = {
-  fill: "black100"
+  fill: "mono100"
 };
 
 ${componentName}.displayName = "${componentName}";
