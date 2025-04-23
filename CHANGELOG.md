@@ -1,3 +1,16 @@
+# v3.29.0 (Wed Apr 23 2025)
+
+#### 🚀  Enhancement
+
+- chore: update README [#71](https://github.com/artsy/icons/pull/71) ([@MrSltun](https://github.com/MrSltun))
+- chore: update black100 to mono100 [#72](https://github.com/artsy/icons/pull/72) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.28.0 (Tue Apr 15 2025)
 
 #### 🚀  Enhancement
