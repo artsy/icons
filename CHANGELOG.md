@@ -1,3 +1,15 @@
+# v3.29.1 (Thu Apr 24 2025)
+
+#### 🐛  Bug Fix
+
+- feat(EMI-2432): Add Google Pay icon [#73](https://github.com/artsy/icons/pull/73) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.29.0 (Wed Apr 23 2025)
 
 #### 🚀  Enhancement
