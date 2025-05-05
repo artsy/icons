@@ -1,3 +1,15 @@
+# v3.30.0 (Mon May 05 2025)
+
+#### 🚀  Enhancement
+
+- chore: migrate FollowArtist icon [#74](https://github.com/artsy/icons/pull/74) ([@anandaroop](https://github.com/anandaroop))
+
+#### Authors: 1
+
+- Anandaroop Roy ([@anandaroop](https://github.com/anandaroop))
+
+---
+
 # v3.29.1 (Thu Apr 24 2025)
 
 #### 🐛  Bug Fix
