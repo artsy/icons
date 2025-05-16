@@ -1,3 +1,17 @@
+# v3.39.0 (Fri May 16 2025)
+
+#### 🚀  Enhancement
+
+- feat: add BookmarkFill [#85](https://github.com/artsy/icons/pull/85) ([@anandaroop](https://github.com/anandaroop))
+- feat: add Fire [#86](https://github.com/artsy/icons/pull/86) ([@anandaroop](https://github.com/anandaroop))
+- feat: add FollowArtistFill [#87](https://github.com/artsy/icons/pull/87) ([@anandaroop](https://github.com/anandaroop))
+
+#### Authors: 1
+
+- Anandaroop Roy ([@anandaroop](https://github.com/anandaroop))
+
+---
+
 # v3.38.0 (Fri May 16 2025)
 
 #### 🚀  Enhancement
