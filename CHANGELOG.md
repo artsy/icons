@@ -1,3 +1,15 @@
+# v3.38.0 (Fri May 16 2025)
+
+#### 🚀  Enhancement
+
+- feat: add BoltFill [#84](https://github.com/artsy/icons/pull/84) ([@anandaroop](https://github.com/anandaroop))
+
+#### Authors: 1
+
+- Anandaroop Roy ([@anandaroop](https://github.com/anandaroop))
+
+---
+
 # v3.37.0 (Fri May 16 2025)
 
 #### 🚀  Enhancement
