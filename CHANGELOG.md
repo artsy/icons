@@ -1,3 +1,15 @@
+# v3.37.0 (Fri May 16 2025)
+
+#### 🚀  Enhancement
+
+- fix: Update arrowhead sizes [#83](https://github.com/artsy/icons/pull/83) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.36.0 (Fri May 16 2025)
 
 #### 🚀  Enhancement
