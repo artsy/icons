@@ -1,3 +1,15 @@
+# v3.33.0 (Fri May 16 2025)
+
+#### 🚀  Enhancement
+
+- chore: Update No Art icon [#78](https://github.com/artsy/icons/pull/78) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.32.0 (Fri May 16 2025)
 
 #### 🚀  Enhancement
