@@ -1,3 +1,15 @@
+# v3.31.0 (Fri May 16 2025)
+
+#### 🚀  Enhancement
+
+- fix: update cartes bancaires icon [#76](https://github.com/artsy/icons/pull/76) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.30.0 (Mon May 05 2025)
 
 #### 🚀  Enhancement
