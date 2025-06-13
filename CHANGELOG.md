@@ -1,3 +1,15 @@
+# v3.41.0 (Fri Jun 13 2025)
+
+#### 🚀  Enhancement
+
+- feat(MOPRAT-865): Add GuaranteeIcon [#90](https://github.com/artsy/icons/pull/90) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.40.0 (Fri Jun 13 2025)
 
 #### 🚀  Enhancement
