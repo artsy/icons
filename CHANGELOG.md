@@ -1,3 +1,16 @@
+# v3.40.0 (Fri Jun 13 2025)
+
+#### 🚀  Enhancement
+
+- feat(MOPRAT-851): Add LinkIcon [#89](https://github.com/artsy/icons/pull/89) ([@MrSltun](https://github.com/MrSltun))
+- feat(MOPRAT-849,MOPRAT-850): Add Grid and FullWidth icons [#88](https://github.com/artsy/icons/pull/88) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.39.0 (Fri May 16 2025)
 
 #### 🚀  Enhancement
