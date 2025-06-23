@@ -1,3 +1,15 @@
+# v3.41.1 (Mon Jun 23 2025)
+
+#### 🐛  Bug Fix
+
+- feat: Add AI Icon [#91](https://github.com/artsy/icons/pull/91) ([@olerichter00](https://github.com/olerichter00))
+
+#### Authors: 1
+
+- Ole ([@olerichter00](https://github.com/olerichter00))
+
+---
+
 # v3.41.0 (Fri Jun 13 2025)
 
 #### 🚀  Enhancement
