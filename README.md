@@ -50,6 +50,7 @@ We've setup the repo so that adding new icons and publishing to NPM is as automa
 1. Create a new branch: `git checkout -b add-new-icon`
 1. Copy your new icon `.svg` file into the `src` folder (and follow pre-existing naming conventions! :pray:)
 1. Push your branch up to GitHub and open a PR. This should automatically be tagged with a `minor` label indicating a new feature addition
+1. Run `yarn build && yarn docs` to test the new icon
 1. Merge PR. This will automatically generate JSX components and publish to NPM, and additionally update the docs
 1. Once published, a new comment will be added to the PR announcing the new version.
 
