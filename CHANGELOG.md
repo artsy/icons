@@ -1,3 +1,15 @@
+# v3.43.0 (Mon Jun 23 2025)
+
+#### 🚀  Enhancement
+
+- chore: Rename AI Icon to AiImport [#93](https://github.com/artsy/icons/pull/93) ([@olerichter00](https://github.com/olerichter00))
+
+#### Authors: 1
+
+- Ole ([@olerichter00](https://github.com/olerichter00))
+
+---
+
 # v3.42.0 (Mon Jun 23 2025)
 
 #### 🚀  Enhancement
