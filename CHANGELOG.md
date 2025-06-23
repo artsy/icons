@@ -1,3 +1,15 @@
+# v3.42.0 (Mon Jun 23 2025)
+
+#### 🚀  Enhancement
+
+- chore: expose native base icon [#92](https://github.com/artsy/icons/pull/92) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.41.1 (Mon Jun 23 2025)
 
 #### 🐛  Bug Fix
