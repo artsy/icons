@@ -109,6 +109,7 @@ ${iconFiles
 
 const getIndexSource = () => `
 export * from "./allIcons";
+export * from "./Icon";
 `
 
 const writeNative = ({ svgs }) => {
