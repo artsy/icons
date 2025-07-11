@@ -1,3 +1,16 @@
+# v3.45.0 (Fri Jul 11 2025)
+
+#### 🚀  Enhancement
+
+- feat(MOPRAT-866): Add Instagram App Icon [#96](https://github.com/artsy/icons/pull/96) ([@MrSltun](https://github.com/MrSltun))
+- feat(MOPRAT-860): Add WhatsApp Icon [#97](https://github.com/artsy/icons/pull/97) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.44.0 (Fri Jul 11 2025)
 
 #### 🚀  Enhancement
