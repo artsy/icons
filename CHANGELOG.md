@@ -1,3 +1,15 @@
+# v3.44.0 (Fri Jul 11 2025)
+
+#### 🚀  Enhancement
+
+- feat(MOPRAT-859): Add TriangleDown icon [#95](https://github.com/artsy/icons/pull/95) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.43.0 (Mon Jun 23 2025)
 
 #### 🚀  Enhancement
