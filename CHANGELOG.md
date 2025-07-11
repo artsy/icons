@@ -1,3 +1,15 @@
+# v3.46.0 (Fri Jul 11 2025)
+
+#### 🚀  Enhancement
+
+- feat: adds new social icons [#98](https://github.com/artsy/icons/pull/98) ([@dzucconi](https://github.com/dzucconi))
+
+#### Authors: 1
+
+- Damon ([@dzucconi](https://github.com/dzucconi))
+
+---
+
 # v3.45.0 (Fri Jul 11 2025)
 
 #### 🚀  Enhancement
