@@ -1,3 +1,16 @@
+# v3.47.0 (Fri Jul 11 2025)
+
+#### 🚀  Enhancement
+
+- feat: add StarCircle and StarCircleFill [#82](https://github.com/artsy/icons/pull/82) ([@anandaroop](https://github.com/anandaroop) [@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 2
+
+- Anandaroop Roy ([@anandaroop](https://github.com/anandaroop))
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.46.0 (Fri Jul 11 2025)
 
 #### 🚀  Enhancement
