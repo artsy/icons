@@ -1,3 +1,15 @@
+# v3.48.0 (Tue Jul 29 2025)
+
+#### 🚀  Enhancement
+
+- chore: update icons for Eigen migration [#99](https://github.com/artsy/icons/pull/99) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.47.0 (Fri Jul 11 2025)
 
 #### 🚀  Enhancement
