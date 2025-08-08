@@ -1,3 +1,15 @@
+# v3.49.0 (Fri Aug 08 2025)
+
+#### 🚀  Enhancement
+
+- chore: Add ArrowLeftIcon [#100](https://github.com/artsy/icons/pull/100) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.48.0 (Tue Jul 29 2025)
 
 #### 🚀  Enhancement
