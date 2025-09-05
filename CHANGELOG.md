@@ -1,3 +1,15 @@
+# v3.50.0 (Fri Sep 05 2025)
+
+#### 🚀  Enhancement
+
+- chore: Add ClockFill Icon [#101](https://github.com/artsy/icons/pull/101) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.49.0 (Fri Aug 08 2025)
 
 #### 🚀  Enhancement
