@@ -1,3 +1,15 @@
+# v3.51.0 (Mon Sep 08 2025)
+
+#### 🚀  Enhancement
+
+- feat: add pdf icon for energy [#102](https://github.com/artsy/icons/pull/102) ([@gkartalis](https://github.com/gkartalis))
+
+#### Authors: 1
+
+- George ([@gkartalis](https://github.com/gkartalis))
+
+---
+
 # v3.50.0 (Fri Sep 05 2025)
 
 #### 🚀  Enhancement
