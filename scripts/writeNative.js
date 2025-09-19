@@ -38,7 +38,9 @@ interface ${
     componentName + "Props"
   } extends IconProps, Omit<SvgProps, "fill"> {}
 
-const ScaledSvgComponent = ({ fill, ...props }: ${componentName + "Props"}) => {
+const ScaledSvgComponent = ({ fill = "mono100", ...props }: ${
+    componentName + "Props"
+  }) => {
   const theme = useTheme();
   const { scaledWidth, scaledHeight } = getScaledDimensions(${width}, ${height});
   const fillColor = get(theme, \`colors.\${fill}\`, (fill as string) ?? "black");
@@ -47,10 +49,6 @@ const ScaledSvgComponent = ({ fill, ...props }: ${componentName + "Props"}) => {
 };
 
 export const ${componentName} = getStyledIcon(ScaledSvgComponent);
-
-${componentName}.defaultProps = {
-  fill: "mono100"
-};
 
 ${componentName}.displayName = "${componentName}";
 `
@@ -113,7 +111,7 @@ export * from "./Icon";
 `
 
 const writeNative = ({ svgs }) => {
-  const iconFiles = svgs.map((svg) => {
+  const iconFiles = svgs.map(svg => {
     const name = path.basename(svg.path).replace(".svg", "")
     const componentName = `${upperFirst(camelCase(name))}Icon`
     const fileName = componentName
@@ -123,9 +121,7 @@ const writeNative = ({ svgs }) => {
         properties: { viewBox },
       },
     ] = parse(svg.source).children
-    const [_x, _y, width, height] = viewBox
-      .split(" ")
-      .map((n) => parseInt(n, 10))
+    const [_x, _y, width, height] = viewBox.split(" ").map(n => parseInt(n, 10))
 
     const source = getReactNativeSource({
       componentName,
