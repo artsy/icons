@@ -1,3 +1,15 @@
+# v3.52.0 (Fri Sep 19 2025)
+
+#### 🚀  Enhancement
+
+- refactor: replace defaultProps fill color with ES6 def. values for native icons [#104](https://github.com/artsy/icons/pull/104) ([@gkartalis](https://github.com/gkartalis))
+
+#### Authors: 1
+
+- George ([@gkartalis](https://github.com/gkartalis))
+
+---
+
 # v3.51.0 (Mon Sep 08 2025)
 
 #### 🚀  Enhancement
