@@ -1,3 +1,15 @@
+# v3.53.0 (Fri Oct 31 2025)
+
+#### 🚀  Enhancement
+
+- feat: add conventional commit github action [#105](https://github.com/artsy/icons/pull/105) ([@amonkhouse](https://github.com/amonkhouse))
+
+#### Authors: 1
+
+- Amy Monkhouse ([@amonkhouse](https://github.com/amonkhouse))
+
+---
+
 # v3.52.0 (Fri Sep 19 2025)
 
 #### 🚀  Enhancement
