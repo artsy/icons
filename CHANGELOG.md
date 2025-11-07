@@ -1,3 +1,15 @@
+# v3.54.0 (Fri Nov 07 2025)
+
+#### 🚀  Enhancement
+
+- chore: Add Duplicate icon [#106](https://github.com/artsy/icons/pull/106) ([@olerichter00](https://github.com/olerichter00))
+
+#### Authors: 1
+
+- Ole ([@olerichter00](https://github.com/olerichter00))
+
+---
+
 # v3.53.0 (Fri Oct 31 2025)
 
 #### 🚀  Enhancement
