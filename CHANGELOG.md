@@ -1,3 +1,15 @@
+# v3.56.0 (Mon Nov 10 2025)
+
+#### 🚀  Enhancement
+
+- feat: add yarn check github action [#108](https://github.com/artsy/icons/pull/108) ([@mc-jones](https://github.com/mc-jones))
+
+#### Authors: 1
+
+- Matt Jones ([@mc-jones](https://github.com/mc-jones))
+
+---
+
 # v3.55.0 (Mon Nov 10 2025)
 
 #### 🚀  Enhancement
