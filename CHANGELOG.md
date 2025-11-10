@@ -1,3 +1,15 @@
+# v3.55.0 (Mon Nov 10 2025)
+
+#### 🚀  Enhancement
+
+- feat: add add-version-label github action [#107](https://github.com/artsy/icons/pull/107) ([@amonkhouse](https://github.com/amonkhouse))
+
+#### Authors: 1
+
+- Amy Monkhouse ([@amonkhouse](https://github.com/amonkhouse))
+
+---
+
 # v3.54.0 (Fri Nov 07 2025)
 
 #### 🚀  Enhancement
