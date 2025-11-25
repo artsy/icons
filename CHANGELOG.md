@@ -1,3 +1,15 @@
+# v3.57.0 (Tue Nov 25 2025)
+
+#### 🚀  Enhancement
+
+- fix: Remove clipping from DocumentIcon [#109](https://github.com/artsy/icons/pull/109) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.56.0 (Mon Nov 10 2025)
 
 #### 🚀  Enhancement
