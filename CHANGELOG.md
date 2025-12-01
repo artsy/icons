@@ -1,3 +1,15 @@
+# v3.59.0 (Mon Dec 01 2025)
+
+#### 🚀  Enhancement
+
+- Oxaudo/social icons [#111](https://github.com/artsy/icons/pull/111) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.58.0 (Mon Dec 01 2025)
 
 #### 🚀  Enhancement
