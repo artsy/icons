@@ -1,3 +1,15 @@
+# v3.58.0 (Mon Dec 01 2025)
+
+#### 🚀  Enhancement
+
+- feat: adding a new white version of instagram and linkedIn icons. The current ones should be renamed to Fill versions. [#110](https://github.com/artsy/icons/pull/110) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.57.0 (Tue Nov 25 2025)
 
 #### 🚀  Enhancement
