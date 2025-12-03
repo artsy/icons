@@ -1,3 +1,15 @@
+# v3.60.0 (Wed Dec 03 2025)
+
+#### 🚀  Enhancement
+
+- chore: replace linkedIn and Istragram with proper icons [#112](https://github.com/artsy/icons/pull/112) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.59.0 (Mon Dec 01 2025)
 
 #### 🚀  Enhancement
