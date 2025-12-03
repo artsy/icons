@@ -21,6 +21,7 @@ const IGNORED_FILES = [
   "DinersClub",
   "Discover",
   "JCB",
+  "LinkedIn",
   "Mastercard",
   "UnionPay",
   "Visa",
