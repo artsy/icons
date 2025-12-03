@@ -1,6 +1,6 @@
 {
   "name": "@artsy/icons",
-  "version": "3.60.0",
+  "version": "3.60.1",
   "main": "dist/index.js",
   "exports": {
     "./*": "./dist/web/*.js",
