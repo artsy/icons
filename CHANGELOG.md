@@ -1,3 +1,15 @@
+# v3.62.0 (Wed Dec 03 2025)
+
+#### 🚀  Enhancement
+
+- chore: need to update fill on LinkedInIcon to render properly [#115](https://github.com/artsy/icons/pull/115) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.61.0 (Wed Dec 03 2025)
 
 #### 🚀  Enhancement
