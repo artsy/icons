@@ -1,3 +1,15 @@
+# v3.61.0 (Wed Dec 03 2025)
+
+#### 🚀  Enhancement
+
+- chore: adding LinkedInIcon to removeAttrsIfSameFill as this might fix strange black fill issue [#114](https://github.com/artsy/icons/pull/114) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.60.1 (Wed Dec 03 2025)
 
 #### 🐛  Bug Fix
