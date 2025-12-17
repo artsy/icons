@@ -1,3 +1,15 @@
+# v3.63.0 (Wed Dec 17 2025)
+
+#### 🚀  Enhancement
+
+- feat: adding archive icon [#116](https://github.com/artsy/icons/pull/116) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.62.0 (Wed Dec 03 2025)
 
 #### 🚀  Enhancement
