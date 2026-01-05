@@ -1,3 +1,15 @@
+# v3.64.0 (Mon Jan 05 2026)
+
+#### 🚀  Enhancement
+
+- chore: add stroke version of PendingIcon [#117](https://github.com/artsy/icons/pull/117) ([@oxaudo](https://github.com/oxaudo))
+
+#### Authors: 1
+
+- Oksana ([@oxaudo](https://github.com/oxaudo))
+
+---
+
 # v3.63.0 (Wed Dec 17 2025)
 
 #### 🚀  Enhancement
