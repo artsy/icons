@@ -1,3 +1,15 @@
+# v3.65.0 (Fri Feb 06 2026)
+
+#### 🚀  Enhancement
+
+- feat: add triggers to conventional commits check [#118](https://github.com/artsy/icons/pull/118) ([@mc-jones](https://github.com/mc-jones))
+
+#### Authors: 1
+
+- Matt Jones ([@mc-jones](https://github.com/mc-jones))
+
+---
+
 # v3.64.0 (Mon Jan 05 2026)
 
 #### 🚀  Enhancement
