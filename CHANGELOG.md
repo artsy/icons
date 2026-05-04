@@ -1,3 +1,15 @@
+# v3.67.0 (Mon May 04 2026)
+
+#### 🚀  Enhancement
+
+- Revert "feat: Adds new combined logos Artsy / Artnet icon" [#120](https://github.com/artsy/icons/pull/120) ([@jpotts244](https://github.com/jpotts244))
+
+#### Authors: 1
+
+- Jacqueline Potts ([@jpotts244](https://github.com/jpotts244))
+
+---
+
 # v3.66.0 (Mon May 04 2026)
 
 #### 🚀  Enhancement
