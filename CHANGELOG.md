@@ -1,3 +1,15 @@
+# v3.66.0 (Mon May 04 2026)
+
+#### 🚀  Enhancement
+
+- feat: Adds new combined logos Artsy / Artnet icon [#119](https://github.com/artsy/icons/pull/119) ([@jpotts244](https://github.com/jpotts244))
+
+#### Authors: 1
+
+- Jacqueline Potts ([@jpotts244](https://github.com/jpotts244))
+
+---
+
 # v3.65.0 (Fri Feb 06 2026)
 
 #### 🚀  Enhancement
