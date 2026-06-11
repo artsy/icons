@@ -1,3 +1,15 @@
+# v3.68.0 (Thu Jun 11 2026)
+
+#### 🚀  Enhancement
+
+- chore: Add Pin icon [#121](https://github.com/artsy/icons/pull/121) ([@olerichter00](https://github.com/olerichter00))
+
+#### Authors: 1
+
+- Ole ([@olerichter00](https://github.com/olerichter00))
+
+---
+
 # v3.67.0 (Mon May 04 2026)
 
 #### 🚀  Enhancement
