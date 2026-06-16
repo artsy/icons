@@ -1,3 +1,15 @@
+# v3.69.0 (Tue Jun 16 2026)
+
+#### 🚀  Enhancement
+
+- chore: Add new icons [#123](https://github.com/artsy/icons/pull/123) ([@MrSltun](https://github.com/MrSltun))
+
+#### Authors: 1
+
+- Sultan Al-Maari ([@MrSltun](https://github.com/MrSltun))
+
+---
+
 # v3.68.0 (Thu Jun 11 2026)
 
 #### 🚀  Enhancement
