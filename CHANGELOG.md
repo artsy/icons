@@ -1,3 +1,15 @@
+# v3.70.0 (Thu Jun 18 2026)
+
+#### 🚀  Enhancement
+
+- feat: add difference marker icon [#124](https://github.com/artsy/icons/pull/124) ([@leamotta](https://github.com/leamotta))
+
+#### Authors: 1
+
+- [@leamotta](https://github.com/leamotta)
+
+---
+
 # v3.69.0 (Tue Jun 16 2026)
 
 #### 🚀  Enhancement
