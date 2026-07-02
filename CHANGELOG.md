@@ -1,3 +1,15 @@
+# v3.71.0 (Thu Jul 02 2026)
+
+#### 🚀  Enhancement
+
+- feat: add Brand and Exhibition icons [#125](https://github.com/artsy/icons/pull/125) ([@chr-tatu](https://github.com/chr-tatu))
+
+#### Authors: 1
+
+- Christian Tatu ([@chr-tatu](https://github.com/chr-tatu))
+
+---
+
 # v3.70.0 (Thu Jun 18 2026)
 
 #### 🚀  Enhancement
