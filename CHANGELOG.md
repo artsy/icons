@@ -1,3 +1,15 @@
+# v3.72.0 (Fri Jul 03 2026)
+
+#### 🚀  Enhancement
+
+- feat: add Feedback icon [#126](https://github.com/artsy/icons/pull/126) ([@chr-tatu](https://github.com/chr-tatu))
+
+#### Authors: 1
+
+- Christian Tatu ([@chr-tatu](https://github.com/chr-tatu))
+
+---
+
 # v3.71.0 (Thu Jul 02 2026)
 
 #### 🚀  Enhancement
