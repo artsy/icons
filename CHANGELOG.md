@@ -1,3 +1,15 @@
+# v3.73.0 (Tue Jul 07 2026)
+
+#### 🚀  Enhancement
+
+- feat: add VerticalEllipsis icon [#127](https://github.com/artsy/icons/pull/127) ([@chr-tatu](https://github.com/chr-tatu))
+
+#### Authors: 1
+
+- Christian Tatu ([@chr-tatu](https://github.com/chr-tatu))
+
+---
+
 # v3.72.0 (Fri Jul 03 2026)
 
 #### 🚀  Enhancement
