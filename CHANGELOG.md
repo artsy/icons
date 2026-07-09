@@ -1,3 +1,16 @@
+# v3.74.0 (Thu Jul 09 2026)
+
+#### 🚀  Enhancement
+
+- fix: rename VerticalEllipsisIcon to MoreVerticalIcon [#128](https://github.com/artsy/icons/pull/128) ([@claude](https://github.com/claude) [@chr-tatu](https://github.com/chr-tatu))
+
+#### Authors: 2
+
+- Christian Tatu ([@chr-tatu](https://github.com/chr-tatu))
+- Claude ([@claude](https://github.com/claude))
+
+---
+
 # v3.73.0 (Tue Jul 07 2026)
 
 #### 🚀  Enhancement
