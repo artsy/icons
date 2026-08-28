@@ -1,3 +1,15 @@
+# v3.76.0 (Fri Aug 28 2026)
+
+#### 🚀  Enhancement
+
+- feat: add copy icon [#129](https://github.com/artsy/icons/pull/129) ([@dariakoko](https://github.com/dariakoko))
+
+#### Authors: 1
+
+- Daria Kozlova ([@dariakoko](https://github.com/dariakoko))
+
+---
+
 # v3.75.0 (Fri Aug 28 2026)
 
 #### 🚀  Enhancement
