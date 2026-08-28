@@ -1,3 +1,15 @@
+# v3.75.0 (Fri Aug 28 2026)
+
+#### 🚀  Enhancement
+
+- feat: add Eclipse icon [#130](https://github.com/artsy/icons/pull/130) ([@egdbear](https://github.com/egdbear))
+
+#### Authors: 1
+
+- Dejan ([@egdbear](https://github.com/egdbear))
+
+---
+
 # v3.74.0 (Thu Jul 09 2026)
 
 #### 🚀  Enhancement
