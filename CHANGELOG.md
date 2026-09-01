@@ -1,3 +1,15 @@
+# v3.77.0 (Tue Sep 01 2026)
+
+#### 🚀  Enhancement
+
+- feat: Add NotShare icon [#131](https://github.com/artsy/icons/pull/131) ([@lidimayra](https://github.com/lidimayra))
+
+#### Authors: 1
+
+- Lidiane T ([@lidimayra](https://github.com/lidimayra))
+
+---
+
 # v3.76.0 (Fri Aug 28 2026)
 
 #### 🚀  Enhancement
