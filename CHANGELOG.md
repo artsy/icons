@@ -1,3 +1,15 @@
+# v3.78.0 (Tue Sep 01 2026)
+
+#### 🚀  Enhancement
+
+- chore: Apply the 18x18 dimensions to NotShare icon [#132](https://github.com/artsy/icons/pull/132) ([@lidimayra](https://github.com/lidimayra))
+
+#### Authors: 1
+
+- Lidiane T ([@lidimayra](https://github.com/lidimayra))
+
+---
+
 # v3.77.0 (Tue Sep 01 2026)
 
 #### 🚀  Enhancement
