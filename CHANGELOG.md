@@ -1,3 +1,15 @@
+# v3.79.0 (Thu Sep 03 2026)
+
+#### 🚀  Enhancement
+
+- feat: adds Camera icons [#133](https://github.com/artsy/icons/pull/133) ([@nickskalkin](https://github.com/nickskalkin))
+
+#### Authors: 1
+
+- Nikita Skalkin ([@nickskalkin](https://github.com/nickskalkin))
+
+---
+
 # v3.78.0 (Tue Sep 01 2026)
 
 #### 🚀  Enhancement
