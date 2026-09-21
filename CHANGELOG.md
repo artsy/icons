@@ -1,3 +1,15 @@
+# v3.81.0 (Mon Sep 21 2026)
+
+#### 🚀  Enhancement
+
+- feat: add SparklesSquare icons [#135](https://github.com/artsy/icons/pull/135) ([@nickskalkin](https://github.com/nickskalkin))
+
+#### Authors: 1
+
+- Nikita Skalkin ([@nickskalkin](https://github.com/nickskalkin))
+
+---
+
 # v3.80.0 (Thu Sep 10 2026)
 
 #### 🚀  Enhancement
