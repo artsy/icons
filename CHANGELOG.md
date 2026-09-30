@@ -1,3 +1,15 @@
+# v3.82.0 (Wed Sep 30 2026)
+
+#### 🚀  Enhancement
+
+- feat: add SparklesMessage icon [#136](https://github.com/artsy/icons/pull/136) ([@nickskalkin](https://github.com/nickskalkin))
+
+#### Authors: 1
+
+- Nikita Skalkin ([@nickskalkin](https://github.com/nickskalkin))
+
+---
+
 # v3.81.0 (Mon Sep 21 2026)
 
 #### 🚀  Enhancement
