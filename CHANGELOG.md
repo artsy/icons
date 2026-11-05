@@ -1,3 +1,20 @@
+# v3.83.0 (Thu Nov 05 2026)
+
+#### 🚀  Enhancement
+
+- feat: add thumbs up/down icons [#138](https://github.com/artsy/icons/pull/138) ([@egdbear](https://github.com/egdbear))
+
+#### 🏠  Internal
+
+- chore(ci): bump artsy/auto orb for npm trusted publishing [#137](https://github.com/artsy/icons/pull/137) ([@zapraum](https://github.com/zapraum))
+
+#### Authors: 2
+
+- Dejan ([@egdbear](https://github.com/egdbear))
+- Rodrigo ([@zapraum](https://github.com/zapraum))
+
+---
+
 # v3.82.0 (Wed Sep 30 2026)
 
 #### 🚀  Enhancement
