@@ -1,3 +1,15 @@
+# v3.85.0 (Wed Nov 11 2026)
+
+#### 🚀  Enhancement
+
+- feat: add send icon [#140](https://github.com/artsy/icons/pull/140) ([@nickskalkin](https://github.com/nickskalkin))
+
+#### Authors: 1
+
+- Nikita Skalkin ([@nickskalkin](https://github.com/nickskalkin))
+
+---
+
 # v3.84.0 (Wed Nov 11 2026)
 
 #### 🚀  Enhancement
