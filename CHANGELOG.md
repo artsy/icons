@@ -1,3 +1,15 @@
+# v3.84.0 (Wed Nov 11 2026)
+
+#### 🚀  Enhancement
+
+- feat: add microphone icon [#139](https://github.com/artsy/icons/pull/139) ([@nickskalkin](https://github.com/nickskalkin))
+
+#### Authors: 1
+
+- Nikita Skalkin ([@nickskalkin](https://github.com/nickskalkin))
+
+---
+
 # v3.83.0 (Thu Nov 05 2026)
 
 #### 🚀  Enhancement
