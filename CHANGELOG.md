@@ -1,3 +1,15 @@
+# v3.86.0 (Mon Nov 23 2026)
+
+#### 🚀  Enhancement
+
+- feat: Add Masonry icon [#141](https://github.com/artsy/icons/pull/141) ([@dariakoko](https://github.com/dariakoko))
+
+#### Authors: 1
+
+- Daria Kozlova ([@dariakoko](https://github.com/dariakoko))
+
+---
+
 # v3.85.0 (Wed Nov 11 2026)
 
 #### 🚀  Enhancement
